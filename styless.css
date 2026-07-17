@@ -66,3 +66,30 @@ header nav a:hover{
 .Spyder .btn:hover{
     background-color: aliceblue;
 }
+
+/* div container */
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.second-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.third-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
