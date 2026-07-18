@@ -1,0 +1,120 @@
+body{
+    color: rgb(193, 161, 161);
+    color: white;
+}
+/* header part */
+div .logo{
+    background-color: rgb(117, 159, 197);
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 2px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
+}
+
+div img{
+    padding: 10px;
+}
+
+/* nav part */
+div nav a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+div nav a:hover{
+    background-color: brown;
+    border-radius: 10px;
+}
+
+div nav button{
+    background-color: rgb(117, 159, 197);
+    text-align: center;
+    color: white;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-style:inset;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div nav button:hover{
+    background-color: brown;
+    border-radius: 10px;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.Spyder{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+.total-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 10px 10px;
+}
+
+.grid-container{
+    background-color: rgb(117, 159, 197);
+    border-radius: 10px;
+    padding: 35px;
+    width: 33%;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
+    transition: transform 0.9ms ease;
+}
+
+.grid-container:hover{
+    transform: translateY(-5px);
+    background-color:brown;
+}
+
+.grid-container h2{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.grid-container p {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: all 0.4s ease; 
+}
+
+.grid-container:hover p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.form-container{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    width: 350px;
+}
